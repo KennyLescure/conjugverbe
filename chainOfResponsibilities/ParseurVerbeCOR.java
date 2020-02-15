@@ -1,6 +1,6 @@
 package chainOfResponsibilities;
 
-import groupes.Verbe;
+import groupes.present.Verbe;
 
 public abstract class ParseurVerbeCOR implements ParseurVerbe{
 	protected ParseurVerbeCOR suivant;

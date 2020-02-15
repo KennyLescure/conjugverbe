@@ -1,20 +1,20 @@
 package chainOfResponsibilities;
 
 import groupes.*;
-import groupes.present.Deuxiemegrp;
 import groupes.present.Verbe;
+import groupes.present.VerbeEnOudre;
 
 
-public class Parse2G extends ParseurVerbeCOR{
+public class ParseOUDRE extends ParseurVerbeCOR{
 
-	public Parse2G(ParseurVerbeCOR suivant) {
+	public ParseOUDRE(ParseurVerbeCOR suivant) {
 		super(suivant);
 	}
 
 	@Override
 	public Verbe Parse1(String verbe) {
 		try {
-		return new Deuxiemegrp(verbe);
+		return new VerbeEnOudre(verbe);
 		}catch(IllegalArgumentException e) {
 			return null;
 		}

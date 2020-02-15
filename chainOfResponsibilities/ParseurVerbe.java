@@ -1,6 +1,6 @@
 package chainOfResponsibilities;
 
-import groupes.Verbe;
+import groupes.present.Verbe;
 
 public interface ParseurVerbe {
 

@@ -1,6 +1,8 @@
 package chainOfResponsibilities;
 
 import groupes.*;
+import groupes.present.Premiergrp;
+import groupes.present.Verbe;
 
 
 public class Parse1G extends ParseurVerbeCOR{

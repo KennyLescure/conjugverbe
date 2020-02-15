@@ -1,6 +1,8 @@
 package chainOfResponsibilities;
 
 import groupes.*;
+import groupes.present.Verbe;
+import groupes.present.VerbeEnAitre;
 
 
 public class ParseAITRE extends ParseurVerbeCOR{

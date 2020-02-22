@@ -1,42 +1,42 @@
-package groupes.present;
-public class Deuxiemegrp extends Verbe {
+package groupes.futur;
 
-	public Deuxiemegrp(String infinitif) 
-	{
+import groupes.present.Verbe;
+
+public class Premiergrpfutur extends Verbe{
+
+	public Premiergrpfutur(String infinitif) {
 		super(infinitif, "ir");
 	}
 	
 	public String terminaison1()
 	{		
-		return "is";
+		return "irai";
 	}
 	
 	public String terminaison2()
 	{		
-		return "is";
+		return "iras";
 	}
 	
 	public String terminaison3()
 	{		
-		return "it";
+		return "ira";
 	}
 	
 	public String terminaison4()
 	{
-		return "issons";
+		return "irons";
 	}
 	
 	public String terminaison5()
 	{
-		return "issez";
+		return "irez";
 	}
 	
 	public String terminaison6()
 	{
-		return "issent";
+		return "iront";
 	}
 
-	
-	
 	
 }

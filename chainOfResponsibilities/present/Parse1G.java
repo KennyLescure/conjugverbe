@@ -1,5 +1,6 @@
-package chainOfResponsibilities;
+package chainOfResponsibilities.present;
 
+import chainOfResponsibilities.ParseurVerbeCOR;
 import groupes.*;
 import groupes.present.Premiergrp;
 import groupes.present.Verbe;

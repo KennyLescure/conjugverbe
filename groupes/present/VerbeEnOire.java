@@ -1,42 +1,39 @@
 package groupes.present;
-public class Deuxiemegrp extends Verbe {
 
-	public Deuxiemegrp(String infinitif) 
+public class VerbeEnOire extends Verbe{
+
+	public VerbeEnOire(String infinitif) 
 	{
-		super(infinitif, "ir");
+		super(infinitif, "oire");
 	}
 	
 	public String terminaison1()
 	{		
-		return "is";
+		return "ois";
 	}
 	
 	public String terminaison2()
 	{		
-		return "is";
+		return "ois";
 	}
 	
 	public String terminaison3()
 	{		
-		return "it";
+		return "oit";
 	}
 	
 	public String terminaison4()
 	{
-		return "issons";
+		return "oyons";
 	}
 	
 	public String terminaison5()
 	{
-		return "issez";
+		return "oyez";
 	}
 	
 	public String terminaison6()
 	{
-		return "issent";
+		return "oient";
 	}
-
-	
-	
-	
 }
